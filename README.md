@@ -1,0 +1,1 @@
+Aqui vai ter algumas anotações (feitas no obsidian) e códigos (em python) sobre algoritmos e estruturas de dados
