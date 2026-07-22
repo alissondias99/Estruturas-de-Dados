@@ -37,3 +37,13 @@ def maximo(lista):
     return lista[0] if lista[0] > sub_max else sub_max
 
 print(maximo([1, 2, 3, 50 ,3, -5, 99, 888]))
+
+# 4.5 Criar uma tabela de multiplicação com todos os elementos do array.
+# Assim, caso o seu array seja [2, 3, 7, 8, 10], você primeiro multiplicará cada elemento por 2. Depois, multiplicará cada elemento por 3 e então por 7, e assim por diante.
+
+array = [2, 3, 7, 8, 10]
+
+for i in array:
+    for y in array:
+        print(i * y)
+    print('---')
